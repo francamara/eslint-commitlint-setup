@@ -1,0 +1,33 @@
+{
+  "name": "eslint-commitlint-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francamara/eslint-commitlint-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francamara/eslint-commitlint-setup/issues"
+  },
+  "homepage": "https://github.com/francamara/eslint-commitlint-setup#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jasmine": "^4.1.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^7.0.4"
+  }
+}
